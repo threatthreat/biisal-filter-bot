@@ -22,10 +22,10 @@ USERNAME = environ.get('USERNAME', "https://telegram.me/Grezy8")
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002374553598'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/MoviesandSeries36')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002345626874').split()]
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://heisenberg:walder1234@cluster0.wkum1.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://heisenberg8007:walder123@cluster1.doy1l.mongodb.net/?retryWrites=true&w=majority&appName=Cluster1")
 
-DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster1")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'vjcollection')
+DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'vjcollectioni')
 LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002418930268'))
 QR_CODE = environ.get('QR_CODE', 'https://i.ibb.co/27xBy1r0/file-908.jpg')
 START_IMG = environ.get('START_IMG', 'https://graph.org/file/4dad0cc16f190468454ee.jpg')
